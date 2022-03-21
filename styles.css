@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.menu {
+    width: 100%;
+    display: flex;
+    position: sticky;
+    background: #fff;
+    top: 0;
+}
+
+.divider1 {
+    width: 55%;
+}
+
+.divider2 {
+    width: 45%;
+    display: flex;
+}
+
+.divider2 p {
+    margin-left: 4rem;
+    color: #6E7275;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.divider2 p a {
+    text-decoration: none;
+    color: #6E7275;
+}
+
+
+.logo {
+    width: 11%;
+    margin-top: 10px;
+    margin-left: 7rem;
+}
+
+.cadastro {
+    background-color: #EFF8FF;
+    height: 30rem;
+    display: flex;
+}
+
+.apresentation {
+    margin: 0;
+    font-family: sans-serif;
+    color: #293145;
+    line-height: 1.2;
+}
+
+.cadastre-se {
+    background-color: #0F9AFE;
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 25px;
+    border: solid 0px #0F9AFE;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.text-cadastro {
+    margin: 9rem;
+    width: 40%;
+}
+
+.cadastro-img {
+    width: 60%;
+}
+
+.cadastro-img img {
+    margin-left: 6rem;
+}
+
+.funcionalidades {
+    background-color: #FFFFFF;
+    height: 25rem;
+    text-align: center;
+}
+
+.itens-funcionalidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 6rem;
+}
+
+.itens-funcionalidades p {
+    color: #6E7275
+}
+
+.funcionalidades h2 {
+    margin-top: 3rem;
+}
+
+.download-app {
+    background-color: #EFF8FF;
+    height: 25rem;
+    display: flex;
+}
+
+.download-app div {
+    width: 50%;
+}
+
+.text-download button {
+    width: 7.5rem;
+    height: 3rem;
+    background-color: #293145;
+    border-radius: 9px;
+    border: solid 0px;
+    margin-top: 10px;
+}
+
+.text-download button img {
+    width: 85%;
+    margin: 7px;
+}
+
+.text-download p {
+    color: #6E7275;
+    font-size: 15px;
+}
+
+.text-download {
+    margin: 6rem 9rem;
+}
+
+.planos {
+    background-color: #FFFFFF;
+    height: 38rem;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title h2 {
+    margin-bottom: 1.5rem !important;
+    line-height: 0 !important;
+    margin-top: 2.5rem !important;
+}
+
+.title p {
+    color: #6E7275;
+}
+
+.plano-blue {
+    height: 25rem;
+    width: 20rem;
+    margin: 3rem;
+    background-color: #EFF8FF;
+    border-radius: 5px;
+}
+
+.plano-black {
+    height: 25rem;
+    width: 20rem;
+    margin: 3rem;
+    background-color: #293145;
+    border-radius: 5px;
+}
+
+.planos-card {
+    display: flex;
+    justify-content: center;
+}
+
+.geral-planos {
+    width: 100%;
+}
+
+.content-plano,
+.content-plano-prata {
+    height: 85%;
+    width: 90%;
+    margin: 10% 5%;
+    text-align: center;
+}
+
+.valor {
+    justify-content: center;
+    display: flex;
+}
+
+.rs-valor {
+    margin-top: 2.5rem;
+    font-size: 14px;
+}
+
+.number-valor {
+    font-size: 36px;
+}
+
+.mes-valor {
+    margin-top: 3.4rem
+}
+
+.text-plano {
+    font-size: 15px;
+    color: #6E7275;
+}
+
+.content-plano button,
+.content-plano-prata button {
+    height: 2rem;
+    width: 10rem;
+    background-color: #0F9AFE;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 10%;
+}
+
+.content-plano-prata h4 {
+    color: #FFFFFF;
+    font-size: 21px;
+    margin-bottom: 11px;
+}
+
+.preferido {
+    color: #FFFFFF;
+    background-color: #0F9AFE;
+    height: 1.5rem;
+    width: 38%;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    margin-left: 31%;
+}
+
+.preferido p {
+    position: absolute;
+    margin: 7px;
+    margin-left: 17px;
+}
+
+.content-plano-prata .valor p {
+    color: #FFFFFF;
+}
+
+.content-plano-prata .valor {
+    line-height: 0;
+}
+
+.text-plano-prata {
+    color: #DBDBDB;
+    font-size: 15px;
+    margin-top: 12%;
+}
+
+.content-plano-prata .valor .rs-valor {
+    margin-top: 1.6rem;
+    font-size: 14px;
+}
+
+.content-plano-prata .valor .mes-valor {
+    margin-top: 2.6rem;
+    font-size: 14px;
+}
+
+.contato {
+    background:
+    linear-gradient(
+      rgba(0,0,0,.3),rgba(0,0,0,.3)
+    ),
+    url('./assets/contato-png.png') no-repeat;
+    max-width: 100%;
+    height: 25rem;
+    background-size: 100%;
+    opacity: 80%;
+}
+
+.contato h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+form {
+    text-align: center;
+}
+
+.texts p {
+    color: #DBDBDB
+}
+
+form input {
+    background: #72726e00;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 15%;
+    color: #DBDBDB
+}
+
+form input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.button-form {
+    height: 1.7rem;
+    width: 5rem;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #0F9AFE;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-left: 1rem;;
+}
+
+.texts {
+    text-align: center;
+    padding: 4rem;
+}
+
+footer {
+    height: 3.5rem;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 1.9rem;
+}
+
+button {
+    cursor: pointer;
+}
